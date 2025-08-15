@@ -93,21 +93,57 @@ const ContactPage: React.FC = () => {
     <div className="min-h-screen bg-[#0D1B2A]">
       {/* Hero Section */}
       <section className="relative py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#F6D1C1]/10 via-transparent to-[#F6D1C1]/5"></div>
-          <div className="absolute top-20 left-10 w-32 h-32 bg-[#F6D1C1]/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-48 h-48 bg-[#F6D1C1]/3 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <img 
+            src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
+            alt="Elegant Jewelry Contact Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-[#0D1B2A]/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0D1B2A]/90 via-[#0D1B2A]/60 to-[#0D1B2A]/40"></div>
         </div>
         
+        {/* Animated Floating Elements */}
+        <div className="absolute top-16 left-8 w-6 h-6 bg-[#F6D1C1]/30 rounded-full animate-bounce" style={{ animationDelay: '0s', animationDuration: '3s' }}></div>
+        <div className="absolute top-32 right-12 w-4 h-4 bg-[#F6D1C1]/40 rounded-full animate-ping" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-24 left-16 w-8 h-8 bg-[#F6D1C1]/20 rounded-full animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-40 right-8 w-3 h-3 bg-[#F6D1C1]/50 rounded-full animate-bounce" style={{ animationDelay: '0.5s', animationDuration: '2s' }}></div>
+        <div className="absolute top-1/2 left-4 w-5 h-5 bg-[#F6D1C1]/25 rounded-full animate-pulse" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-20 right-1/4 w-2 h-2 bg-[#F6D1C1]/60 rounded-full animate-ping" style={{ animationDelay: '1.5s' }}></div>
+        
         <div className={`relative z-10 max-w-4xl mx-auto text-center transition-all duration-1000 ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+          isVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-12 scale-95'
         }`}>
-          <h1 className="font-playfair text-5xl md:text-7xl font-bold text-[#F6D1C1] mb-6 leading-tight">
+          <div className="mb-8">
+            <div className={`inline-block transition-all duration-1500 delay-300 ${
+              isVisible ? 'opacity-100 rotate-0' : 'opacity-0 rotate-12'
+            }`}>
+              <div className="w-20 h-20 bg-[#F6D1C1]/20 rounded-full flex items-center justify-center mx-auto mb-6 backdrop-blur-sm border border-[#F6D1C1]/30">
+                <div className="w-12 h-12 bg-[#F6D1C1]/30 rounded-full flex items-center justify-center animate-pulse">
+                  <div className="w-6 h-6 bg-[#F6D1C1] rounded-full animate-ping"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <h1 className={`font-playfair text-5xl md:text-7xl font-bold text-[#F6D1C1] mb-6 leading-tight transition-all duration-1200 delay-500 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+          }`}>
             Get in Touch
           </h1>
-          <p className="text-[#F6D1C1]/80 text-xl md:text-2xl font-light max-w-2xl mx-auto">
+          <p className={`text-[#F6D1C1]/90 text-xl md:text-2xl font-light max-w-2xl mx-auto transition-all duration-1000 delay-700 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+          }`}>
             We'd love to hear from you. Send us a message and we'll respond as soon as possible.
           </p>
+          
+          {/* Decorative Line */}
+          <div className={`mt-8 flex justify-center transition-all duration-1500 delay-900 ${
+            isVisible ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0'
+          }`}>
+            <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-[#F6D1C1] to-transparent"></div>
+          </div>
         </div>
       </section>
 
