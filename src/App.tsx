@@ -10,6 +10,7 @@ import ProductModal from './components/ProductModal';
 import ProductDetail from './components/ProductDetail';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
+import ImageGallery from './components/ImageGallery';
 import Cart from './components/Cart';
 import ProductGrid from './components/ProductGrid';
 import Footer from './components/Footer';
@@ -80,6 +81,10 @@ function App() {
             
             {currentPage === 'contact' && (
               <ContactPage />
+            )}
+            
+            {currentPage === 'images' && (
+              <ImageGallery />
             )}
             
             <Footer />
