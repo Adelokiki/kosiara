@@ -21,13 +21,15 @@ const AboutPage: React.FC<AboutPageProps> = ({ onShopNow }) => {
   }, []);
 
   const images = [
+    // TODO: Replace with your own about page images
+    // Upload to: src/assets/images/about/
     {
       src: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
-      alt: "Luxury necklace display"
+      alt: "Kosiara jewelry craftsmanship"
     },
     {
       src: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
-      alt: "Elegant jewelry pieces"
+      alt: "Kosiara jewelry collection"
     }
   ];
 

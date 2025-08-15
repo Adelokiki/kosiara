@@ -27,11 +27,14 @@ const ProductGrid: React.FC<ProductGridProps> = ({
   const itemsPerPage = 12;
 
   const products: Product[] = [
+    // TODO: Replace all these product images with your own
+    // Upload to: src/assets/images/products/
     {
       id: 1,
       name: "Pearl Pendant Necklace",
       price: 195.99,
       originalPrice: 245.99,
+      // Replace this URL with your own product image
       image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Necklaces",
       isAvailable: true,
