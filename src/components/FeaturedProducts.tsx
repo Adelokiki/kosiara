@@ -23,7 +23,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       name: "Gold Layered Chain Necklace",
       price: 245,
       originalPrice: 295,
-      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      image: "/src/assets/images/products/gold-chain-necklace.jpg",
       badge: "BESTSELLER",
       rating: 4.9,
       reviews: 234
@@ -32,7 +32,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       id: 2,
       name: "Crystal Drop Earrings",
       price: 185,
-      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      image: "/src/assets/images/products/crystal-drop-earrings.jpg",
       badge: "NEW",
       rating: 4.8,
       reviews: 156

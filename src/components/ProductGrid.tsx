@@ -32,7 +32,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       name: "Pearl Pendant Necklace",
       price: 195.99,
       originalPrice: 245.99,
-      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/src/assets/images/products/pearl-pendant-necklace.jpg",
       category: "Necklaces",
       isAvailable: true,
       isSale: true
@@ -41,7 +41,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 2,
       name: "Diamond Solitaire Ring",
       price: 485.99,
-      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/src/assets/images/products/diamond-solitaire-ring.jpg",
       category: "Rings",
       isAvailable: true,
       isNew: true
