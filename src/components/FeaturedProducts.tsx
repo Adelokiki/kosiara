@@ -26,8 +26,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       name: "Gold Layered Chain Necklace",
       price: 245,
       originalPrice: 295,
-      // Replace this URL with: image: product1,
-      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      image: "/images/featured/featured-1.jpg",
       badge: "BESTSELLER",
       rating: 4.9,
       reviews: 234
@@ -36,8 +35,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       id: 2,
       name: "Crystal Drop Earrings",
       price: 185,
-      // Replace this URL with your own image
-      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      image: "/images/featured/featured-2.jpg",
       badge: "NEW",
       rating: 4.8,
       reviews: 156
@@ -46,8 +44,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       id: 3,
       name: "Beaded Waist Chain",
       price: 95,
-      // Replace this URL with your own image
-      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      image: "/images/featured/featured-3.jpg",
       rating: 4.7,
       reviews: 89
     },
@@ -56,8 +53,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       name: "Gold Stacking Bangles Set",
       price: 225,
       originalPrice: 285,
-      // Replace this URL with your own image
-      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      image: "/images/featured/featured-4.jpg",
       badge: "SALE",
       rating: 4.9,
       reviews: 312
