@@ -6,7 +6,7 @@
 ```javascript
 // Line ~18: Main hero background image
 src="https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
-// Replace with: "/src/assets/images/hero/hero-background.jpg"
+// Replace with: "/src/assets/images/hero/gold-necklace-pendant.jpg"
 ```
 
 ### 2. **Featured Products** (src/components/FeaturedProducts.tsx)
