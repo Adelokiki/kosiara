@@ -61,17 +61,6 @@ const Header: React.FC<HeaderProps> = ({ onCartClick, currentPage, onNavigate })
               Contact
             </button>
             <button 
-              onClick={() => {
-                onNavigate('images');
-                setIsMenuOpen(false);
-              }}
-              className={`block hover:text-[#F6D1C1]/80 transition-colors duration-300 font-medium ${
-                currentPage === 'images' ? 'text-[#F6D1C1]' : 'text-[#F6D1C1]/70'
-              }`}
-            >
-              Images
-            </button>
-            <button 
               onClick={() => onNavigate('images')}
               className={`hover:text-[#F6D1C1]/80 transition-colors duration-300 font-medium ${
                 currentPage === 'images' ? 'text-[#F6D1C1]' : 'text-[#F6D1C1]/70'
