@@ -28,7 +28,7 @@ const ImageGallery: React.FC = () => {
         name: 'Pearl Pendant Necklace',
         url: '/src/assets/Pearl Pendant Necklace.png',
         description: 'Elegant pearl necklace product image',
-        dimensions: '800x800',
+        dimensions: 'Custom uploaded image',
         usage: 'ProductGrid.tsx, FeaturedProducts.tsx'
       },
       {

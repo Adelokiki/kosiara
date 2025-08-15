@@ -32,7 +32,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       name: "Pearl Pendant Necklace",
       price: 195.99,
       originalPrice: 245.99,
-      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/src/assets/Pearl Pendant Necklace.png",
       category: "Necklaces",
       isAvailable: true,
       isSale: true

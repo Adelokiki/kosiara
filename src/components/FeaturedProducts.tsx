@@ -23,7 +23,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       name: "Gold Layered Chain Necklace",
       price: 245,
       originalPrice: 295,
-      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      image: "/src/assets/Pearl Pendant Necklace.png",
       badge: "BESTSELLER",
       rating: 4.9,
       reviews: 234
