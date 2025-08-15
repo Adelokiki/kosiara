@@ -22,11 +22,11 @@ const AboutPage: React.FC<AboutPageProps> = ({ onShopNow }) => {
 
   const images = [
     {
-      src: "/src/assets/images/about/founder-story-1.jpg",
+      src: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
       alt: "Luxury necklace display"
     },
     {
-      src: "/src/assets/images/about/founder-story-2.jpg",
+      src: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
       alt: "Elegant jewelry pieces"
     }
   ];
@@ -37,7 +37,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onShopNow }) => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/src/assets/images/about/about-hero-background.jpg"
+            src="https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
             alt="Luxury Jewelry Craftsmanship"
             className={`w-full h-full object-cover transition-all duration-[3000ms] ${
               isVisible ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
