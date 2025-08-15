@@ -16,7 +16,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ onShopNow }) => {
         And use: src={heroImage}
         */}
         <img 
-          src="/images/hero/main-banner.jpg" 
+          src="https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
           alt="Kosiara Jewelry Collection"
           className="w-full h-full object-cover"
         />

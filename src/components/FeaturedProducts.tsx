@@ -26,7 +26,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       name: "Gold Layered Chain Necklace",
       price: 245,
       originalPrice: 295,
-      image: "/images/featured/featured-1.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
       badge: "BESTSELLER",
       rating: 4.9,
       reviews: 234
@@ -35,7 +35,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       id: 2,
       name: "Crystal Drop Earrings",
       price: 185,
-      image: "/images/featured/featured-2.jpg",
+      image: "https://images.pexels.com/photos/1454171/pexels-photo-1454171.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
       badge: "NEW",
       rating: 4.8,
       reviews: 156
@@ -44,7 +44,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       id: 3,
       name: "Beaded Waist Chain",
       price: 95,
-      image: "/images/featured/featured-3.jpg",
+      image: "https://images.pexels.com/photos/1454172/pexels-photo-1454172.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
       rating: 4.7,
       reviews: 89
     },
@@ -53,7 +53,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onProductClick }) =
       name: "Gold Stacking Bangles Set",
       price: 225,
       originalPrice: 285,
-      image: "/images/featured/featured-4.jpg",
+      image: "https://images.pexels.com/photos/1454173/pexels-photo-1454173.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
       badge: "SALE",
       rating: 4.9,
       reviews: 312
