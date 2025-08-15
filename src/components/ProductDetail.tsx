@@ -21,9 +21,9 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onBack }) => {
   
   const images = [
     product.image,
-    "/images/products/detail-2.jpg",
-    "/images/products/detail-3.jpg",
-    "/images/products/detail-4.jpg"
+    "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=800"
   ];
 
   const relatedProducts = [
@@ -31,28 +31,28 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onBack }) => {
       id: 101,
       name: "Elegant Pearl Necklace",
       price: 185,
-      image: "/images/products/related-1.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=400",
       rating: 4.8
     },
     {
       id: 102,
       name: "Diamond Stud Earrings",
       price: 245,
-      image: "/images/products/related-2.jpg",
+      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=400",
       rating: 4.9
     },
     {
       id: 103,
       name: "Gold Chain Bracelet",
       price: 165,
-      image: "/images/products/related-3.jpg",
+      image: "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=400",
       rating: 4.7
     },
     {
       id: 104,
       name: "Silver Ring Set",
       price: 125,
-      image: "/images/products/related-4.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=400",
       rating: 4.6
     }
   ];

@@ -32,7 +32,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       name: "Pearl Pendant Necklace",
       price: 195.99,
       originalPrice: 245.99,
-      image: "/images/products/necklace-1.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Necklaces",
       isAvailable: true,
       isSale: true
@@ -41,7 +41,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 2,
       name: "Diamond Solitaire Ring",
       price: 485.99,
-      image: "/images/products/rings-1.jpg",
+      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Rings",
       isAvailable: true,
       isNew: true
@@ -50,7 +50,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 3,
       name: "Hoop Earrings - Gold",
       price: 125.99,
-      image: "/images/products/earrings-1.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Earrings",
       isAvailable: false
     },
@@ -58,7 +58,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 4,
       name: "Charm Bangle Bracelet",
       price: 145.99,
-      image: "/images/products/bangles-1.jpg",
+      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Bangles",
       isAvailable: true
     },
@@ -67,7 +67,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       name: "Chandelier Earrings",
       price: 165.99,
       originalPrice: 215.99,
-      image: "/images/products/earrings-2.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Earrings",
       isAvailable: true,
       isSale: true
@@ -76,7 +76,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 6,
       name: "Layered Chain Necklace",
       price: 225.99,
-      image: "/images/products/necklace-2.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Necklaces",
       isAvailable: true,
       isNew: true
@@ -85,7 +85,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 7,
       name: "Vintage Band Ring",
       price: 285.99,
-      image: "/images/products/rings-2.jpg",
+      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Rings",
       isAvailable: true
     },
@@ -93,7 +93,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 8,
       name: "Colorful Waist Beads",
       price: 65.99,
-      image: "/images/products/waistbeads-1.jpg",
+      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Waistbeads",
       isAvailable: false
     },
@@ -101,7 +101,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 9,
       name: "Tassel Earrings",
       price: 85.99,
-      image: "/images/products/earrings-3.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Earrings",
       isAvailable: true
     },
@@ -110,7 +110,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       name: "Statement Choker Necklace",
       price: 155.99,
       originalPrice: 195.99,
-      image: "/images/products/necklace-3.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Necklaces",
       isAvailable: true,
       isSale: true
@@ -119,7 +119,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 11,
       name: "Stackable Ring Set",
       price: 195.99,
-      image: "/images/products/rings-3.jpg",
+      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Rings",
       isAvailable: true
     },
@@ -127,7 +127,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 12,
       name: "Traditional Waist Chain",
       price: 125.99,
-      image: "/images/products/waistbeads-2.jpg",
+      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Waistbeads",
       isAvailable: true,
       isNew: true
@@ -136,7 +136,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 13,
       name: "Rose Gold Bangles",
       price: 175.99,
-      image: "/images/products/bangles-2.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Bangles",
       isAvailable: true
     },
@@ -144,7 +144,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       id: 14,
       name: "Feather Earrings",
       price: 95.99,
-      image: "/images/products/earrings-4.jpg",
+      image: "https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Earrings",
       isAvailable: true,
       isNew: true
@@ -154,7 +154,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
       name: "Gemstone Waist Beads",
       price: 85.99,
       originalPrice: 115.99,
-      image: "/images/products/waistbeads-3.jpg",
+      image: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
       category: "Waistbeads",
       isAvailable: true,
       isSale: true

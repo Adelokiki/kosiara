@@ -9,15 +9,9 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ onShopNow }) => {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        {/* 
-        TODO: Replace with your own hero image
-        Upload your hero image to: src/assets/images/hero/
-        Then import it like: import heroImage from '../assets/images/hero/your-hero-image.jpg'
-        And use: src={heroImage}
-        */}
         <img 
           src="https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
-          alt="Kosiara Jewelry Collection"
+          alt="Luxury Jewelry Background"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-[#0D1B2A] bg-opacity-60"></div>
