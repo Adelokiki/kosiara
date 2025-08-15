@@ -16,9 +16,9 @@ const ImageGallery: React.FC = () => {
       {
         id: 1,
         name: 'Main Hero Background',
-        url: 'https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
+        url: '/src/assets/Luxury necklace display.png',
         description: 'Luxury jewelry background for hero banner',
-        dimensions: '1920x1080',
+        dimensions: 'Custom uploaded image',
         usage: 'HeroBanner.tsx'
       }
     ],

@@ -1,4 +1,5 @@
 import React from 'react';
+import luxuryNecklaceImage from '../assets/Luxury necklace display.png';
 
 interface HeroBannerProps {
   onShopNow: () => void;
@@ -10,7 +11,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ onShopNow }) => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
+          src={luxuryNecklaceImage}
           alt="Luxury Jewelry Background"
           className="w-full h-full object-cover"
         />
